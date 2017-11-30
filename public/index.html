@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Idea Lounge</title>
+
+    <!-- Style Dependencies -->
+    <link rel="stylesheet"  href="contact-us/stylesheets/style.css" />
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:300" rel="stylesheet">
+    <!-- font awesome -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="original/bootstrap/css/bootstrap.min.css" />
+    <!-- animate.css -->
+    <link rel="stylesheet" href="original/animate/animate.css" />
+    <!-- gallery -->
+    <link rel="stylesheet" href="original/gallery/blueimp-gallery.min.css">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="original/slidingheader/layout-simple.css" />
+    <link rel="stylesheet" href="original/style.css">
+    <!-- Style Dependencies -->
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+  </head>
+
+  <body id="home">
+		<div id="container">
+			<header class="intro">
+        <div class="overlay spacer text-center">
+          <div class="intro__content">
+            <div class="logo_container">
+              <img class="logo" width="300px" class="logo" src="images/logo.png" alt="IdeaLounge"/>
+            </div>
+            <button class="trigger" id="triggerButton" position="center" onclick="changeState()">
+              <svg width="100%" height="100%" viewBox="0 0 60 60" preserveAspectRatio="none">
+              	<g class="icon icon--grid">
+                  <line x1="4.5" y1="55.5" x2="4.5" y2="5.047"/>
+                  <line x1="4.5" y1="5.047" x2="4.5" y2="5.047"/>
+                  <line x1="54.953" y1="55.5" x2="4.5" y2="5.047"/>
+                  <line x1="54.953" y1="55.5" x2="54.953" y2="5.046"/>
+              	</g>
+              	<g class="icon icon--cross">
+              		<line x1="4.5" y1="55.5" x2="54.953" y2="5.046"/>
+              		<line x1="54.953" y1="55.5" x2="4.5" y2="5.047"/>
+              	</g>
+              </svg>
+            </button>
+          </div><!-- /intro__content -->
+        </div>
+       </header><!-- /intro -->
+
+       <section class="items-wrap">
+          <div class="container">
+          	 <div class="spacer" id="main-spacer">
+          	   <div class="row">
+                 <div><h1 class="main-caption">Our projects</h1><div>
+
+
+                 <div class="col-sm-4 fadeInUp wowload">
+                   <div class="gallery-items">
+                     <img class="img-responsive" src="images/portfolio/3.png" alt="item01"/>
+                     <div class="caption"><h3>Newton</h3> <a title="Computer Vision" href="http://www.aitoelabs.com/" target="blank" class="gallery-image btn btn-default" >View Details</a></div>
+                   </div>
+                </div>
+
+                <div class="col-sm-4 fadeInUp wowload">
+                  <div class="gallery-items">
+                    <img class="img-responsive" src="images/portfolio/2.png" alt="item01"/>
+                    <div class="caption"><h3>Be There</h3> <a href="https://youtu.be/M_Rwkaa09Xc" target="blank" title="Mobile Apps"  class="gallery-image btn btn-default" >View Details</a></div>
+                 </div>
+               </div>
+
+                 <div class="col-sm-4 fadeInUp wowload">
+                   <div class="gallery-items">
+                     <img class="img-responsive" src="images/portfolio/1.png" alt="item01"/>
+                   <div class="caption"><h3>NASA news</h3>
+                       <a href="https://github.com/alonakos/NASA-news-chrome-extention" target="blank" title="NASA news" class="gallery-image btn btn-default" >View Details</a>
+                    </div>
+                   </div>
+                 </div>
+
+
+
+
+            		<div class="col-sm-4 fadeInUp wowload">
+            		  <div class="gallery-items">
+            			  <img class="img-responsive" src="images/portfolio/5.png" alt="item01"/>
+            			  <div class="caption"><h3>Big data & data science</h3> <a title="Data Science" href="https://www.youtube.com/watch?v=rX0Q1tDibvY&feature=youtu.be" target="blank" class="gallery-image btn btn-default" >View Details</a></div>
+            			</div>
+            	 </div>
+
+            		<div class="col-sm-4 fadeInUp wowload">
+            			 <div class="gallery-items">
+            			  <img class="img-responsive" src="images/portfolio/6.png" alt="item01"/>
+            			  <div class="caption"><h3>Web Development</h3> <a href="#" target="blank" title="Web Development"  class="gallery-image btn btn-default" >View Details</a></div>
+            			</div>
+            		</div>
+
+
+            		<div class="col-sm-4 fadeInUp wowload">
+            			  <div class="gallery-items">
+            			   <img class="img-responsive" src="images/portfolio/4.png" alt="item01"/>
+            			   <div class="caption"><h3>Email Automation</h3> <a title="Email Automation" href="#" target="blank" class="gallery-image btn btn-default" >View Details</a></div>
+            			</div>
+           </div>
+        </div>
+      </section>
+    </div><!-- /container -->
+
+
+   <div class="about">
+    	<div class="overlay spacer text-center">
+    	  <div class="container">
+          <div class="row">
+           <div class="col-sm-4">
+              <div class="gallery-items">
+               <img class="img-responsive" id="anurag" src="images/team/anurag.png" alt="item01"/>
+               <div class="caption"><h3>Anurag Sahoo</h3> <a href="https://www.linkedin.com/in/anurag-sahoo-68b22350/" target="blank" class="gallery-image btn btn-default" >LinkedIn</a></div>
+            </div>
+          </div>
+
+
+      <div class="col-sm-4">
+        <div class="gallery-items">
+    	    <h2>Hello</h2> <h2>We are <b>IdeaLounge</b></h2>
+          <div id="description"><h3> Just awesome developers</h3> </div>
+     <div class="caption">
+       <div class="contact-container">
+         <h3>Feel free to get in touch.</h3>
+         <div class="wowload fadeInUp social">
+           <a href="mailto:idealounge.info@gmail.com" target="_top"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
+           <a href="https://www.facebook.com/groups/1576130375780789/" target=blank><i class="fa fa-facebook fa-2x"></i></a>
+           <a href="https://www.instagram.com/idea.lounge/" target=blank><i class="fa fa-instagram fa-2x"></i></a>
+         </div>
+         <ul class="actions">
+           <li><a id="contact" class="gallery-image btn btn-default">Contact Us</a></li>
+         </ul>
+       </div>
+     </div>
+    </div>
+</div>
+
+
+
+    <div class="col-sm-4">
+        <div class="gallery-items">
+         <img class="img-responsive" id="alona" src="images/team/AlonaKos.png" alt="item01"/>
+         <div class="caption"><h3>Alona Kosobokova</h3> <a  href="https://www.linkedin.com/in/alonakosobokova/" target="blank" class="gallery-image btn btn-default" >LinkedIn</a></div>
+       </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ </div>
+ </div>
+
+ <div class="cd-popup contact" role="alert">
+    <form name="contactform" id="contactform" class="contact-form">
+      <div class="cd-popup-container" style="">
+        <p style="">
+          <a href="" class="cd-popup-close cd-close-button">
+            <i class="fa fa-times" style="pointer-events:none;"></i>
+          </a>
+        </p>
+
+        <div class="name">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" />
+        </div>
+
+        <div class="email">
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" />
+        </div>
+
+        <div class="message">
+          <label for="message">Message</label>
+          <textarea name="message" id="message" name="message"></textarea>
+        </div>
+       <!-- <br>
+       <div class="checkbox">
+         <input type="checkbox" id="human" name="human" />
+         <label for="human">I am a human and not a robot.</label>
+       </div>
+       <br> -->
+        <div class="submit">
+          <p class="user-message" id="contactblurb"> Questions, suggestions, and general comments are all welcome!</p>
+          <input type="submit" name="submit" id="submit" value="Send" />
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <div class="cd-popup notification" role="alert">
+    <div class="cd-popup-container">
+      <a href="" class="cd-popup-close cd-close-button"><i class="fa fa-times" style="pointer-events:none;"></i></a>
+      <p>
+        <h3 id="notification-text">Thanks for getting in touch!</h3>
+      </p>
+     </div>
+   </div>
+
+    <div class="text-center copyright">© 2017 IdeaLounge</a></div>
+
+
+    <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+    <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+        <!-- The container for the modal slides -->
+        <!-- Controls for the borderless lightbox -->
+        <h3 class="title">title</h3>
+        <a class="prev">‹</a>
+        <a class="next">›</a>
+        <a class="close">×</a>
+    </div>
+
+    <!-- Javascript Dependencies -->
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="bower_components/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+    <!-- jquery -->
+    <script src="original/jquery.js"></script>
+    <!-- wow script -->
+    <script src="original/wow/wow.min.js"></script>
+    <!-- slider -->
+    <script src="original/slidingheader/classie.js"></script>
+    <!-- boostrap -->
+    <script src="original/bootstrap/js/bootstrap.js" type="text/javascript" ></script>
+    <!-- jquery mobile -->
+    <script src="original/mobile/touchSwipe.min.js"></script>
+    <!-- jquery mobile -->
+    <script src="original/respond/respond.js"></script>
+    <!-- gallery -->
+    <script src="original/gallery/jquery.blueimp-gallery.min.js"></script>
+    <!-- custom script -->
+    <script src="original/script.js"></script>
+    <script type="text/javascript" src="contact-us/javascripts/scripts.js"></script>
+    <!-- Javascript Dependencies -->
+  </body>
+</html>
