@@ -1,0 +1,14 @@
+{
+  "name": "idea-lounge-firebase",
+  "homepage": "https://github.com/alonakos/idea-lounge-firebase",
+  "authors": [
+    "Alona Kosobokova <alonakosobokova@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "magnific-popup": "^1.1.0"
+  }
+}
