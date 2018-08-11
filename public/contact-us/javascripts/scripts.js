@@ -91,7 +91,7 @@ $(document).ready(function($) {
           if (message) {
 
             $.ajax({
-            url: "https://idealounge.eastus.cloudapp.azure.com/users/contact-us",
+            url: "http://35.237.73.146/users/contact-us",
             // url: "https://localhost/users/contact-us",
             type: "POST",
             data: JSON.stringify({
@@ -106,7 +106,7 @@ $(document).ready(function($) {
           closeForm();
 
           } else {
-            $('#notification-text').html("<strong>Please let us know what you're thinking!</strong>");
+            $('#notification-text').html("<strong>What about the message? ;)</strong>");
             $('.notification').addClass('is-visible');
           }
         } else {

@@ -249,10 +249,11 @@ input[type="button"].icon:before,
   overflow-x: hidden;
   border: none;
   position: relative;
-  width: 82% !important;
-  max-width: 82% !important;
+  width: 93% !important;
+  max-width: 95% !important;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 0px !important;
   text-align: center;
   background: #fff;
   border-radius: .25em .25em .4em .4em;
@@ -275,7 +276,7 @@ input[type="button"].icon:before,
 
 .cd-popup-container p {
   margin: 0;
-  padding: 1em 1em;
+  padding: 1.4em 0.4em;
   padding-top: 1em;
 }
 
@@ -337,7 +338,7 @@ label:hover {
   height: auto;
   margin-top: 60px !important;
   margin: 100px auto;
-  max-width: 60%;
+  max-width: 50%;
   overflow: hidden !important;
   width: 100%;
   -moz-border-radius: 5px;
@@ -371,6 +372,7 @@ label:hover {
   -moz-border-radius: none !important;
   -webkit-border-radius: none !important;
   border-radius: none !important;
+  background: #f4f5f6 !important;
 }
 
 .contact-form .email input:focus,
@@ -405,7 +407,7 @@ label:hover {
 
 .contact-form .email,
 .contact-form .name {
-  width: calc(50% - 1px) !important;
+  width: calc(50% - 0.3px) !important;
 }
 
 @media (max-width: 500px) {
@@ -457,7 +459,7 @@ label:hover {
   display: block !important;
   overflow: hidden !important;
   padding: 23px !important;
-  margin-bottom: 2em;
+  margin-bottom: 0em;
 }
 
 .contact-form .submit .user-message {

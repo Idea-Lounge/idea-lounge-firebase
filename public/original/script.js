@@ -49,7 +49,7 @@ jQuery(document).ready(function($) {
       $("#triggerButton").click()
     }
   };
-  setTimeout(triggerButton, 5000);
+  setTimeout(triggerButton, 4000);
   $(".scroll").click(function(event){
   event.preventDefault();
   $('html,body').animate({
